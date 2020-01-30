@@ -5,9 +5,20 @@ VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E205321A-5C8B-442C-9533-DEE04E21B0B1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{EA776544-C780-4D93-BC17-96C3177EAC7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A0EE4A87-08B3-46BF-A36F-204F72EF6F1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{85865FF8-88BF-42AB-A662-91C2E26BCADC}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA776544-C780-4D93-BC17-96C3177EAC7A} = {E205321A-5C8B-442C-9533-DEE04E21B0B1}
+		{A0EE4A87-08B3-46BF-A36F-204F72EF6F1A} = {E205321A-5C8B-442C-9533-DEE04E21B0B1}
+		{85865FF8-88BF-42AB-A662-91C2E26BCADC} = {E205321A-5C8B-442C-9533-DEE04E21B0B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D92EA3F-70CD-47B5-9119-FFA3B3C397A8}
